@@ -4,7 +4,7 @@
 }
 
 div {     /* temporary styling */
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 html {
@@ -140,4 +140,57 @@ h4.banner {
 
 .bedfordTea {
   padding-right: 165px;
+}
+
+
+/* LOCATIONS */
+.loc_container {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url(../images/blackCup.jpg);
+  background-position: bottom;
+}
+
+.locations h2 {
+  padding: 0;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.teashops {
+  display: flex;
+}
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  text-align: center;
+}
+
+.shop div {
+  padding: 25px 0;
+}
+
+.downtown,
+.west {
+  margin-right: 20px;
+}
+
+.natomas,
+.west {
+  margin-left: 20px;
 }
