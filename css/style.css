@@ -3,7 +3,11 @@
   padding: 0;
 }
 
-body {
+div {     /* temporary styling */
+  border: 1px solid white;
+}
+
+html {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -11,10 +15,15 @@ body {
   opacity: 0.9;
 }
 
+body {
+  height: auto;
+}
+
 /* HEADER */
 header {
   display: flex;
   position: fixed;
+  background-color: black;
   width: 100%;
   height: 69px;
   align-items: center;
@@ -53,12 +62,21 @@ nav a {
 }
 
 
+/* CONTENT */
+.content {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  top: 69px;
+}
+
+
 /* JUMBOTRON */
 .jumbotron {
   position: relative;
-  top: 70px;
   text-align: center;
-  width: 1200px;
+  width: 100%;
+  height: 700px;
   margin: 0 auto;
 }
 
@@ -66,14 +84,14 @@ nav a {
   height: 700px;
 }
 
-h2 {
+h2.banner {
   position: absolute;
   width: 100%;
   top: 302px;
   padding-top: 10px;
 }
 
-h4 {
+h4.banner {
   position: absolute;
   width: 100%;
   top: 350px;
@@ -83,4 +101,43 @@ h4 {
 
 .banner {
   background-color: black;
+}
+
+
+/* FEATURED TEA */
+.feattea {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.title {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.special {
+  margin: 15px 0;
+}
+
+.special img {
+  width: 300px;
+  height: 200px;
+}
+
+.special h4 {
+  margin-top: 10px;
+}
+
+.myrtleAve {
+  padding-left: 165px;
+}
+
+.bedfordTea {
+  padding-right: 165px;
 }
