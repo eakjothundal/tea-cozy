@@ -194,3 +194,25 @@ h4.banner {
 .west {
   margin-left: 20px;
 }
+
+
+/* FOOTER */
+footer {
+  width: 100%;
+  text-align: center;
+  height: 200px;
+}
+
+footer h2 {
+  margin-top: 16px;
+}
+
+footer h5 {
+  margin-top: 40px;
+}
+
+.copy {
+  text-align: left;
+  padding-left: 20px;
+  margin: 15px 0;
+}
